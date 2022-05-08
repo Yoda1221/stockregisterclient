@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,600;1,200&display=swap');
+
+$bgColor: #D4ECDD;
+$color_01: #345B63;
+$color_02: #152D35;
+$color_03: #112031;
+
+* { margin: 0; padding: 0; font-family: "Nunito"; box-sizing: border-box; }
+
+html, body {
+    height: 100%;
+    width:  100vw;
+    overflow-x: hidden;
+}
+body {
+    color: $color_02 !important;
+    background: linear-gradient(90deg, $color_01 0%, $bgColor 100%) !important;
+    background: -moz-linear-gradient(90deg, $color_01 0%, $bgColor 100%) !important;
+    background: -webkit-linear-gradient(90deg, $color_01 0%, $bgColor 100%) !important;
+}
